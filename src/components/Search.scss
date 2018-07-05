@@ -1,0 +1,20 @@
+.search-page {
+  padding: 24px;
+
+  .search-row {
+    display: flex;
+    flex-wrap: wrap;
+
+    .search-input {
+      flex-grow: 1;
+      min-width: 50%;
+    }
+
+    .button { margin-left: 10px; margin-top: -10px; }
+  }
+
+  .result-panel {
+    margin-top: 20px;
+    display: flex;
+  }
+}
